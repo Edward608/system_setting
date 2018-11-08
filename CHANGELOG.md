@@ -1,3 +1,9 @@
+#0.1
+
+Add support for iOS.
+
+Add support for jumping to app-specific setting in Android.
+
 ## 0.0.1
 
-* TODO: Describe initial release.
+Initial release.

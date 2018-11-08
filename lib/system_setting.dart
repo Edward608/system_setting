@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 enum SettingTarget {
   WIFI,
   BLUETOOTH,
+	NOTIFICATION
 }
 
 class SystemSetting {
@@ -24,6 +25,9 @@ class SystemSetting {
       case SettingTarget.BLUETOOTH:
         arg = 'bluetooth';
         break;
+	    case SettingTarget.NOTIFICATION:
+	    	arg = 'notification';
+	    	break;
     }
     _channel.invokeMethod('gotoSetting', arg);
   }
