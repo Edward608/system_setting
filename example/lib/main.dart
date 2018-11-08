@@ -4,11 +4,13 @@ import 'dart:async';
 import 'package:flutter/services.dart';
 import 'package:system_setting/system_setting.dart';
 
-void main() => runApp(Scaffold(
-      body: Center(
-        child: RaisedButton(
-          onPressed: _jumpToSetting,
-          child: Text('Show Flutter homepage'),
+void main() => runApp(MaterialApp(
+      home: Scaffold(
+        body: Center(
+          child: RaisedButton(
+            onPressed: _jumpToSetting,
+            child: Text('Goto setting'),
+          ),
         ),
       ),
     ));
