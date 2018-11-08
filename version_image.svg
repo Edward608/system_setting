@@ -21,6 +21,6 @@
     <text x="525" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="350">
       v4.0.1
     </text>
-    <text x="525" y="140" transform="scale(.1)" textLength="350">v0.1.0</text>
+    <text x="525" y="140" transform="scale(.1)" textLength="350">v0.1.1</text>
   </g>
 </svg>

@@ -3,14 +3,14 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'system_setting'
-  s.version          = '0.0.1'
+  s.version          = '0.1.1'
   s.summary          = 'Flutter plugin for jumping to system settings.'
   s.description      = <<-DESC
 Flutter plugin for jumping to system settings.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/Edward608'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
+  s.author           = { 'Edward Wong' => 'edwardwongtl@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
