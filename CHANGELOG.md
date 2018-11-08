@@ -1,4 +1,8 @@
-#0.1
+##0.1.2
+
+Documentation update
+
+##0.1.1
 
 Add support for iOS.
 
