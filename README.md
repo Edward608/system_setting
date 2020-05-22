@@ -22,7 +22,7 @@ For iOS, `SettingTarget` will not have any effect. It will always go to app sett
 
 ```dart
 import 'package:flutter/material.dart';
-import 'packages:system_setting/system_setting.dart';
+import 'package:system_setting/system_setting.dart';
 
 void main() => runApp(MaterialApp(
       home: Scaffold(

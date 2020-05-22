@@ -17,5 +17,6 @@ Flutter plugin for jumping to system settings.
   s.dependency 'Flutter'
 
   s.ios.deployment_target = '8.0'
+  s.swift_version = '4.0'
 end
 

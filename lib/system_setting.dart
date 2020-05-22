@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter/services.dart';
 
-enum SettingTarget { WIFI, BLUETOOTH, NOTIFICATION }
+enum SettingTarget { WIFI, BLUETOOTH, NOTIFICATION, LOCATION }
 
 class SystemSetting {
   static const MethodChannel _channel = const MethodChannel('system_setting');
@@ -23,6 +23,9 @@ class SystemSetting {
         break;
       case SettingTarget.NOTIFICATION:
         arg = 'notification';
+        break;
+      case SettingTarget.LOCATION:
+        arg = 'location';
         break;
     }
     _channel.invokeMethod('gotoSetting', arg);

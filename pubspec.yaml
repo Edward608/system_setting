@@ -1,6 +1,6 @@
 name: system_setting
 description: Flutter plugin for jumping to system settings.
-version: 0.1.2
+version: 0.1.3
 author: Edward Wong <edwardwongtl@gmail.com>
 homepage: https://github.com/Edward608/system_setting
 

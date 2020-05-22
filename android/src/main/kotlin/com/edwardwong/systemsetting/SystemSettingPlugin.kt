@@ -36,6 +36,7 @@ class SystemSettingPlugin(
     val action = when (target) {
       "wifi"         -> Settings.ACTION_WIFI_SETTINGS
       "bluetooth"    -> Settings.ACTION_BLUETOOTH_SETTINGS
+      "location"     -> Settings.ACTION_LOCATION_SOURCE_SETTINGS
       "notification" -> {
         handleNotificationJump(result)
         return
