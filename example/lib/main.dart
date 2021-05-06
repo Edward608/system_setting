@@ -1,13 +1,13 @@
-import 'package:flutter/material.dart';
 import 'dart:async';
 
+import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:system_setting/system_setting.dart';
 
 void main() => runApp(MaterialApp(
       home: Scaffold(
         body: Center(
-          child: RaisedButton(
+          child: ElevatedButton(
             onPressed: _jumpToSetting,
             child: Text('Goto setting'),
           ),
@@ -65,7 +65,7 @@ class _MyAppState extends State<MyApp> {
             Center(
               child: Text('Running on: $_platformVersion\n'),
             ),
-            FlatButton(
+            TextButton(
                 onPressed: () async {
                   await SystemSetting.goto(SettingTarget.WIFI);
                 },

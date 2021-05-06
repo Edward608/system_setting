@@ -5,7 +5,7 @@ import 'package:flutter/services.dart';
 enum SettingTarget { WIFI, BLUETOOTH, NOTIFICATION, LOCATION }
 
 class SystemSetting {
-  static const MethodChannel _channel = const MethodChannel('system_setting');
+  static const MethodChannel _channel = MethodChannel('system_setting');
 
   static Future<String> get platformVersion async {
     final String version = await _channel.invokeMethod('getPlatformVersion');
